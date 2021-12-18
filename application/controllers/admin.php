@@ -7,12 +7,12 @@ class Admin extends CI_Controller{
        $this->load->view('admin/dashboard');
        $this->load->view('admin/footer');
    }
-   public function Categories(){
+   public function Country(){
 
       $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
       $data ['judul']= 'Halaman Categories';
     $this->load->view('admin/header', $data);
-    $this->load->view('admin/categories');
+    $this->load->view('admin/country');
     $this->load->view('admin/footer');
    }
    public function Detail(){

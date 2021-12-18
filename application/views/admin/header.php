@@ -47,9 +47,8 @@
                         <nav class="header__menu mobile-menu">
                             <ul>
                                 <li><a href="<?= base_url()?>admin">For you</a></li>
-                                <li><a href="<?= base_url()?>admin/categories">Categories</a></li>
                                 <li><a href="<?= base_url()?>admin/genre">Genre</a></li>
-                                <li><a href="<?= base_url()?>/Country">Country</a></li>
+                                <li><a href="<?= base_url()?>admin/country">Country</a></li>
                                 <li><a href="<?= base_url()?>/Advance">Advance search</a></li>
                             </ul>
                         </nav>
