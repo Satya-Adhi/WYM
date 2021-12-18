@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="<?= base_url()?>/assets/css/nice-select.css" type="text/css">
     <link rel="stylesheet" href="<?= base_url()?>/assets/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="<?= base_url()?>/assets/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="<?= base_url()?>/assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="<?= base_url()?>/assets/css/style1.css" type="text/css">
 </head>
 
 <body>

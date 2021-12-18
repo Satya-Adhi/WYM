@@ -26,13 +26,17 @@
                 <div class="col-lg-6">
                     <div class="login__form">
                         <h3>Login</h3>
-                        <form action="#">
+
+                        <?= $this->session->flashdata('message'); ?>
+                        <form class="user" method="POST" action="<?= base_url('auth');?>">
                             <div class="input__item">
-                                <input type="text" placeholder="Email address">
+                                <input type="text" placeholder="Email address" name="email" value="<?= set_value('email');?>">
+                                <?php echo form_error('email','<small class="text-danger pl-3">','</small>') ?>
                                 <span class="icon_mail"></span>
                             </div>
                             <div class="input__item">
-                                <input type="text" placeholder="Password">
+                                <input type="text" placeholder="Password" name="password">
+                                <?php echo form_error('password','<small class="text-danger pl-3">','</small>') ?>
                                 <span class="icon_lock"></span>
                             </div>
                             <button type="submit" class="site-btn">Login Now</button>
@@ -110,4 +114,3 @@
         </div>
     </div>
     <!-- Search model end -->
-

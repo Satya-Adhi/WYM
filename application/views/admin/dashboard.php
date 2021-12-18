@@ -9,7 +9,7 @@
                                 <div class="label">Serial</div>
                                 <h2>Game Of Thrones</h2>
                                 <p>Game of Thrones adalah serial televisi drama fantasi Amerika Serikat yang diciptakan oleh David Benioff dan D. B. Weiss untuk saluran HBO. Serial ini merupakan adaptasi dari A Song of Ice and Fire, seri novel fantasi karangan George R. R. Martin, novel pertama adalah A Game of Thrones.</p>
-                                <a href="#"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
+                                <a href="<?= base_url()?>admin/detail"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -21,7 +21,7 @@
                             <div class="label">Serial</div>
                                 <h2>Game Of Thrones</h2>>
                                 <p>Game of Thrones adalah serial televisi drama fantasi Amerika Serikat yang....</p>
-                                <a href="#"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
+                                <a href="<?= base_url()?>admin/detail"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@
                             <div class="label">Serial</div>
                                 <h2>Game Of Thrones</h2>
                                 <p>Game of Thrones adalah serial televisi drama fantasi Amerika Serikat yang...</p>
-                                <a href="#"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
+                                <a href="<?= base_url()?>admin/detail"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>

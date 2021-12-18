@@ -331,7 +331,7 @@ ol {
 }
 
 .header__logo {
-	padding: 20px 0 17px;
+	padding: 12px 0 17px;
 }
 
 .header__logo a {
@@ -346,7 +346,7 @@ ol {
 	list-style: none;
 	display: inline-block;
 	position: relative;
-	margin-right: 16px;
+	margin-right: 10px;
 }
 
 .header__menu ul li.active a {
@@ -419,7 +419,7 @@ ol {
 
 .header__right {
 	text-align: right;
-	padding: 20px 0 15px;
+	padding: -2px 0 15px;
 }
 
 .header__right a {
@@ -627,7 +627,7 @@ ol {
 }
 
 .product-page {
-	padding-top: 60px;
+	padding-top: 20px;
 }
 
 .btn__all {
