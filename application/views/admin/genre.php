@@ -7,7 +7,7 @@
                             <div class="row">
                                 <div class="col-lg-8 col-md-8 col-sm-6">
                                     <div class="section-title">
-                                        <h4>Indonesia</h4>
+                                        <h4>Romance</h4>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-6">
@@ -70,7 +70,7 @@
                                 <div class="row">
                                     <div class="col-lg-8 col-md-8 col-sm-6">
                                         <div class="section-title">
-                                            <h4>Amerika</h4>
+                                            <h4>Action</h4>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-6">

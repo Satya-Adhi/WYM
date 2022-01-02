@@ -31,6 +31,14 @@ class Admin extends CI_Controller{
     $this->load->view('admin/genre');
     $this->load->view('admin/footer');
    }
+   public function Advanced(){
+
+      $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
+      $data ['judul']= 'Halaman advanced';
+    $this->load->view('admin/header', $data);
+    $this->load->view('admin/advanced');
+    $this->load->view('admin/footer');
+   }
 }
 
 

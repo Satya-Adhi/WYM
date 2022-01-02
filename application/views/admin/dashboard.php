@@ -33,7 +33,7 @@
                             <div class="label">Serial</div>
                                 <h2>Game Of Thrones</h2>
                                 <p>Game of Thrones adalah serial televisi drama fantasi Amerika Serikat yang...</p>
-                                <a href="<?= base_url()?>admin/detail"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
+                                <a href="<?= base_url()?>/detail"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
