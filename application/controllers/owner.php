@@ -4,7 +4,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Controllername extends CI_Controller {
+class Owner extends CI_Controller {
 
     public function __construct()
     {
@@ -20,6 +20,8 @@ class Controllername extends CI_Controller {
     $data ['judul']= 'Halaman Administrator';
        $this->load->view('template/header',$data);
        $this->load->view('owner/dashboard');
+       $this->load->view('owner/sidebar');
+       $this->load->view('owner/content_dashboard');
        $this->load->view('template/footer');
     }
 

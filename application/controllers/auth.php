@@ -35,9 +35,16 @@ class Auth extends CI_Controller{
                 if(password_verify($password, $user['password'])){
                     $data = [
                         'email' => $user['email'],
+                        'id_role' => $user['id_role'],
                     ];
                     $this->session->set_userdata($data);
-                    redirect('admin');
+
+                    if($user['id_role'] == 1) {
+                        redirect('owner');
+                    }
+                    else {
+                        redirect('admin');
+                    }
                 }
                 else{
                     $this->session->set_flashdata('message','<div class="alert alert-danger" role="alert">Password anda salah</div>');
@@ -79,6 +86,7 @@ class Auth extends CI_Controller{
                 'no_telp' => $this->input->post('no_telp', true),
                 'password' => password_hash($this->input->post('password'), PASSWORD_DEFAULT),
                 'is_active' => 1,
+                'id_role' => 2,
             ];
 
             $this->db->insert('user', $data);

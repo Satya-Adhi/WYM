@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="<?= base_url()?>/assets/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="<?= base_url()?>/assets/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="<?= base_url()?>/assets/css/style1.css" type="text/css">
+    <link rel="stylesheet" href="<?= base_url()?>/assets/css/about.css" type="text/css">
 </head>
 
 <body>
@@ -48,21 +49,12 @@
                             <ul>
                                 <li><a href="<?= base_url()?>admin">For you</a></li>
                                 <li><a href="<?= base_url()?>admin/genre">Genre</a></li>
-                                <li><a href="<?= base_url()?>admin/country">Country<span class="arrow_carrot-down"></span></a>
+                                <?php $country = $this->m_admin->get_country(); ?>
+                                <li><a href="#" class="nav-link">Country<span class="arrow_carrot-down"></span></a>
                                     <ul class="dropdown mt-1" style="width: 200px;">
-                                        <div class="row">
-                                            <div class="col-sm-2 mr-2">
-                                                <li><a href="./login.html">Amerika</a></li>
-                                                <li><a href="./login.html">Australia</a></li>
-                                                <li><a href="./login.html">China</a></li>
-                                                
-                                            </div>
-                                            <div class="col-sm-2 ml-5">
-                                                <li><a href="./login.html">Indonesia</a></li>
-                                                <li><a href="./login.html">German</a></li>
-                                                <li><a href="./login.html">Rusia</a></li>
-                                            </div>
-                                        </div>
+                                        <?php foreach ($country as $c => $value) { ?>
+                                        <li><a href="<?= base_url('admin/country/'. $value->id_country) ?>"><?= $value->nama_country?></a></li> 
+                                        <?php } ?>
                                     </ul>
                                 </li>
                                 <li><a href="<?= base_url()?>admin/advanced">Advance search</a></li>

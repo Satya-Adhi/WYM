@@ -35,7 +35,7 @@
                                 <span class="icon_mail"></span>
                             </div>
                             <div class="input__item">
-                                <input type="text" placeholder="Password" name="password">
+                                <input type="password" placeholder="Password" name="password">
                                 <?php echo form_error('password','<small class="text-danger pl-3">','</small>') ?>
                                 <span class="icon_lock"></span>
                             </div>
